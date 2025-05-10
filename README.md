@@ -89,7 +89,7 @@ obj.display()
 ### Result: Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.3 ADVANCED LIST PROCESSING
-### Aim: To Write a Python program toadd two matrix using list Comprehension.
+### Aim: To Write a Python program to add two matrix using list Comprehension.
 
 ### Algorithm:
 
@@ -130,7 +130,7 @@ T = [[A[i][j]+B[i][j] for j in range(len(A[0]))]for i in range(len(A))]
 print(T)
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/411a227a-f44d-4b1a-b489-c7592dddbb67)
+![image]()
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
