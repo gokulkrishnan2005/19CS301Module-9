@@ -130,7 +130,7 @@ T = [[A[i][j]+B[i][j] for j in range(len(A[0]))]for i in range(len(A))]
 print(T)
 ```
 ### Output:
-![image]()
+![image](https://github.com/gokulkrishnan2005/19CS301Module-9/blob/main/module%209-1.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
