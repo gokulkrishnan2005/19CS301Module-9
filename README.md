@@ -89,7 +89,7 @@ obj.display()
 ### Result: Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.3 ADVANCED LIST PROCESSING
-### Aim: To Write a Python program to Find the transpose of a matrix using list Comprehension.
+### Aim: To Write a Python program toadd two matrix using list Comprehension.
 
 ### Algorithm:
 
@@ -101,7 +101,7 @@ STEP 3: Get the value of r and c from user.
 
 STEP 4: Define a function to create the matrix.
 
-STEP 5 : Using list comprehension find the transpose of the matrix.
+STEP 5 : Using list comprehension add the two matrix.
 
 STEP 6: Print the result.
 
@@ -109,20 +109,25 @@ STEP 7 : Stop.
 
 ### Program:
 ```
-def create(r,c):
-            M=[]
-        for i in range(int(r)):
-             R = []
-        for j in range(int(c)):
-             x = int(input())
-             R.append(x)
-           M.append(R)
- return M
-r,c = input().split()
-matrix = create(int(r),int(c))
-print(matrix)
-T = [[r[i]for r in matrix]for i in range(len(matrix[0]))]
- print(T)
+def create_matrix(n,m):
+    M=[]
+    for i in range(n):
+        row=[]
+        for j in range(m):
+            x=int(input())
+            row.append(x)
+        M.append(row)
+    return M 
+    
+r,c=input().split()
+r=int(r)
+c=int(c)
+A=create_matrix(r,c)
+B=create_matrix(r,c)
+print(A)
+print(B)
+T = [[A[i][j]+B[i][j] for j in range(len(A[0]))]for i in range(len(A))]
+print(T)
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/411a227a-f44d-4b1a-b489-c7592dddbb67)
