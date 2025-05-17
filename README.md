@@ -233,7 +233,7 @@ print(l)
 print(sq_l)
 ```
 ### Output:
- ![image](https://github.com/user-attachments/assets/a9707d46-2d47-4472-a6b3-b407a6f6ef71)
+ ![image](https://github.com/gokulkrishnan2005/19CS301Module-9/blob/main/m9%205th.png)
 
 ### Result: Thus, the given program is implemented and executed successfully .
 
