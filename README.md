@@ -192,5 +192,48 @@ if isThoeplitz(A):
 ![image](https://github.com/user-attachments/assets/0fb8f81b-ab07-4b3e-b273-035a0f38566d)
 
 ### Result: Thus, the given program is implemented and executed successfully.
- 
+
+
+ ### EX: 9.5 SEB- LIST COMPREHENSION
+### Aim: To Write a Python program to find the cube of all elements in a list using list comprehension.
+### Algorithm:
+Start
+
+Read an integer n (number of elements).
+
+Initialize an empty list l.
+
+Repeat steps 5–6, n times:
+
+Read a floating-point number x.
+
+Append x to the list l.
+
+Create a new list sq_l:
+
+For each element item in list l, compute item ** 3 and store it in sq_l.
+
+Print the original list l.
+
+Print the cubed list sq_l.
+
+End
+
+
+
+### Program:
+```
+n=int(input())
+l=[]
+for i in range(n):
+    x=float(input())
+    l.append(x)
+sq_l=[item**3 for item in l]
+print(l)
+print(sq_l)
+```
+### Output:
+ ![image](https://github.com/user-attachments/assets/a9707d46-2d47-4472-a6b3-b407a6f6ef71)
+
+### Result: Thus, the given program is implemented and executed successfully .
 
