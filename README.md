@@ -1,6 +1,7 @@
 # 19CS301Module-9
 ### EX: 9.1                                            MATRIX OPERATIONS
-### Aim: To Write a Python Program to subtract two matrices by reading the matrix from the user.
+### Aim:
+To Write a Python Program to subtract two matrices by reading the matrix from the user.
 ### Algorithm:
 
 STEP 1: Start.
@@ -49,7 +50,8 @@ print(C)
 ### Result: Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.2 LIST COMPREHENSION
-### Aim: To Write a Python class program to generate all even numbers between 200 and 300 and store in a list using list comprehension.
+### Aim:
+To Write a Python class program to generate all even numbers between 200 and 300 and store in a list using list comprehension.
 ### Algorithm:
 STEP 1: Start.
 
@@ -89,7 +91,8 @@ obj.display()
 ### Result: Thus, the given program is implemented and executed successfully .
 
 ### EX: 9.3 ADVANCED LIST PROCESSING
-### Aim: To Write a Python program to add two matrix using list Comprehension.
+### Aim:
+To Write a Python program to add two matrix using list Comprehension.
 
 ### Algorithm:
 
@@ -137,7 +140,8 @@ print(T)
 
 
 ### EX: 9.4       TOEPLITZ MATRIX
-### Aim: To Write a Python Program to check whether the given matrix is Toeplitz Matrix.
+### Aim:
+To Write a Python Program to check whether the given matrix is Toeplitz Matrix.
 
 
 ### Algorithm:
@@ -195,7 +199,8 @@ if isThoeplitz(A):
 
 
  ### EX: 9.5 SEB- LIST COMPREHENSION
-### Aim: To Write a Python program to find the cube of all elements in a list using list comprehension.
+### Aim:
+To Write a Python program to find the cube of all elements in a list using list comprehension.
 ### Algorithm:
 Start
 
